@@ -1,0 +1,161 @@
+03:57,52 PM: DEBUG [conexión.py:25] Conexion exitosa
+04:03,21 PM: DEBUG [conexión.py:25] Conexion exitosa
+04:03,21 PM: DEBUG [conexión.py:37] Conexion del pool obtenida
+04:03,21 PM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+04:31,33 PM: DEBUG [conexión.py:25] Conexion exitosa
+04:31,33 PM: DEBUG [conexión.py:37] Conexion del pool obtenida
+04:31,33 PM: DEBUG [cursor_del_pool.py:26] [(37, 'Maria', 'Esparza', 'mesparza@mail.com'), (39, 'Carlos', 'Lara', 'clara@mail.com'), (44, 'Alejandra', 'Tellez', 'atellez@mail.com'), (1, 'Juan', 'Perez', 'jperez@mail.com'), (41, 'Pedro', 'Najera', 'pnajera@mail.com')]
+04:31,33 PM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+04:31,33 PM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+05:31,16 PM: DEBUG [conexión.py:25] Conexion exitosa
+05:31,16 PM: DEBUG [conexión.py:37] Conexion del pool obtenida
+05:31,16 PM: DEBUG [cursor_del_pool.py:26] []
+05:31,16 PM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+05:31,16 PM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+11:53,38 PM: DEBUG [conexión.py:25] Conexion exitosa
+11:53,38 PM: DEBUG [conexión.py:37] Conexion del pool obtenida
+11:53,38 PM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x102f8aa80>
+11:53,38 PM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+11:54,30 PM: DEBUG [conexión.py:25] Conexion exitosa
+11:54,30 PM: DEBUG [conexión.py:37] Conexion del pool obtenida
+11:54,30 PM: DEBUG [usuario_dao.py:28] Usuario a insertar: User ID: 1 
+    User: jperez, Password: 123
+11:54,30 PM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'int' object is not callable <class 'TypeError'> <traceback object at 0x101642440>
+11:54,30 PM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+11:55,16 PM: DEBUG [conexión.py:25] Conexion exitosa
+11:55,16 PM: DEBUG [conexión.py:37] Conexion del pool obtenida
+11:55,16 PM: DEBUG [usuario_dao.py:28] Usuario a insertar: User ID: 1 
+    User: jperez, Password: 123
+11:55,16 PM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+11:55,16 PM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+11:55,16 PM: DEBUG [usuario_dao.py:50] Persona insertada: 1
+11:57,35 PM: DEBUG [conexión.py:25] Conexion exitosa
+11:57,35 PM: DEBUG [conexión.py:37] Conexion del pool obtenida
+11:57,35 PM: DEBUG [usuario_dao.py:28] Usuario a insertar: User ID: None 
+    User: jperez, Password: 123
+11:57,35 PM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+11:57,35 PM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+11:57,35 PM: DEBUG [usuario_dao.py:50] Persona insertada: 1
+12:02,45 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:02,45 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:02,45 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute '_id_usuario' <class 'AttributeError'> <traceback object at 0x10292e800>
+12:02,45 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:03,54 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:03,54 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:03,54 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute '_id_usuario' <class 'AttributeError'> <traceback object at 0x105202000>
+12:03,54 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:04,20 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:04,20 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:04,20 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute '_id_usuario' <class 'AttributeError'> <traceback object at 0x102df5fc0>
+12:04,20 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:05,16 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:05,16 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:05,16 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute '_id_usuario' <class 'AttributeError'> <traceback object at 0x1056de1c0>
+12:05,16 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:05,46 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:05,46 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:05,46 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute '_id_usuario' <class 'AttributeError'> <traceback object at 0x10117e000>
+12:05,46 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:11,34 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:11,34 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:11,34 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'id_usuario' <class 'AttributeError'> <traceback object at 0x105f56100>
+12:11,34 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:11,57 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:11,57 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:11,57 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'id_usuario' <class 'AttributeError'> <traceback object at 0x100faa900>
+12:11,57 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:12,16 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:12,16 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:12,16 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'id_usuario' <class 'AttributeError'> <traceback object at 0x105ef6140>
+12:12,16 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:14,52 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:14,52 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:14,52 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'id_usuario' <class 'AttributeError'> <traceback object at 0x101df2240>
+12:14,52 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:15,37 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:15,37 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:15,37 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'id_usuario' <class 'AttributeError'> <traceback object at 0x105996240>
+12:15,37 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:16,46 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:16,46 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:16,46 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x1016da080>
+12:16,46 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:17,39 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:17,39 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:17,39 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x105a05440>
+12:17,39 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:18,55 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:18,55 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:18,55 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x101c78480>
+12:18,55 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:19,02 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:19,02 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:19,02 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x103c6e0c0>
+12:19,02 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:21,05 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:21,05 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:21,05 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x103c1c440>
+12:21,05 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:21,31 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:21,31 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:21,31 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x1013ce040>
+12:21,31 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:22,35 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:22,35 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:22,35 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x103b2a040>
+12:22,35 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:23,08 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:23,08 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:23,08 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'Usuario' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x103765fc0>
+12:23,08 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:25,44 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:25,44 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:25,44 AM: DEBUG [usuario_dao.py:36] Usuario actualizado: User ID: 3 
+    User: kgomez, Password: 456
+12:25,44 AM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+12:25,44 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:25,44 AM: DEBUG [usuario_dao.py:54] Usuario actualizado: 1
+12:28,32 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:28,32 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:28,32 AM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+12:28,32 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:39,15 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:39,15 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:39,15 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:39,15 AM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+12:39,15 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:39,15 AM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+12:39,15 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:39,36 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:39,36 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:39,36 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:39,36 AM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+12:39,36 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:39,36 AM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+12:39,36 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:56,19 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:56,19 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:57,06 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: UsuarioDao.insertar() missing 1 required positional argument: 'usuario' <class 'TypeError'> <traceback object at 0x104d3bcc0>
+12:57,06 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+12:58,43 AM: DEBUG [conexión.py:25] Conexion exitosa
+12:58,43 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+12:58,54 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: UsuarioDao.insertar() missing 1 required positional argument: 'usuario' <class 'TypeError'> <traceback object at 0x100e6b6c0>
+12:58,54 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+01:06,10 AM: DEBUG [conexión.py:25] Conexion exitosa
+01:06,10 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+01:06,20 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: UsuarioDao.eliminar() missing 1 required positional argument: 'usuario' <class 'TypeError'> <traceback object at 0x1010d7700>
+01:06,20 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+01:55,04 AM: DEBUG [conexión.py:25] Conexion exitosa
+01:55,04 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+01:55,04 AM: DEBUG [conexión.py:37] Conexion del pool obtenida
+01:55,04 AM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+01:55,04 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+01:55,04 AM: DEBUG [cursor_del_pool.py:20] Commit de la transaccion
+01:55,04 AM: DEBUG [conexión.py:43] Regresamos la conexion al pool
+02:07,06 AM: INFO [menu_app_usuario.py:28] Usuarios insertados: 1
+02:09,22 AM: INFO [menu_app_usuario.py:35] Usuario actualizado: 1
+02:10,47 AM: INFO [menu_app_usuario.py:28] Usuarios insertados: 1
+02:11,55 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x104877a80>
+02:13,08 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x104877a80>
+02:13,57 AM: ERROR [cursor_del_pool.py:17] Ocurrió una excepcion, se hace rollback: 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x102ac3b00>
+02:14,37 AM: INFO [menu_app_usuario.py:40] Usuario eliminado: 1
